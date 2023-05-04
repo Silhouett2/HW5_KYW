@@ -1,5 +1,5 @@
 import csv
-f = open('2022_Seoul_Temp.csv', 'r', encoding='cp949')
+f = open('q1.csv', 'r', encoding='cp949')
 data = csv.reader(f, delimiter=',')
 header = next(data)
 # print(header)
@@ -20,7 +20,7 @@ for row in data:
 print("Average Temperature:",round((totaldhseh/n),2), "Celsius")
 f.close()
 
-f = open('2022_Seoul_Temp.csv', 'r', encoding='cp949')
+f = open('q1.csv', 'r', encoding='cp949')
 data = csv.reader(f, delimiter=',')
 header = next(data)
 
@@ -42,7 +42,7 @@ print("Average Minimun Temperature:",round((totaldhseh2/n2),2), "Celsius")
 f.close()
         
 
-f = open('2022_Seoul_Temp.csv', 'r', encoding='cp949')
+f = open('q1.csv', 'r', encoding='cp949')
 data = csv.reader(f, delimiter=',')
 header = next(data)
 

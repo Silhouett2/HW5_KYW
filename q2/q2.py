@@ -1,6 +1,6 @@
 import csv
 print("*** Annual Tempurature Report for Seoul in 2022 ***")
-f = open('2022_Seoul_Temp.csv', 'r', encoding='cp949')
+f = open('q2.csv', 'r', encoding='cp949')
 data = csv.reader(f, delimiter=',')
 header = next(data)
 # print(header)
@@ -29,7 +29,7 @@ print("Day with the largest temperature variation:", date)
 print("maximum temperature difference :", round(max,2),"Celsius")
 f.close()
 
-f = open('2022_Seoul_Temp.csv', 'r', encoding='cp949')
+f = open('q2.csv', 'r', encoding='cp949')
 data = csv.reader(f, delimiter=',')
 header = next(data)
 # print(header)
